@@ -18,7 +18,7 @@ class WorkListJob(Job):
     def run(self, *args, **data):  # pylint: disable=unused-argument
         """Run receptorctl command."""
         self.logger.warning("Run ReceptorCtl Work List.")
-        r = ReceptorControl("tcp://10.1.1.10:1234")
+        r = ReceptorControl("tcp://node01.example.internal:1234")
         self.logger.info(r.simple_command("work list"))
         result = r.submit_work(worktype='gather-hostname', node="controller01", payload="")
         self.logger.info(r.simple_command("work list"))
