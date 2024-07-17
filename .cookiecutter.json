@@ -1,0 +1,26 @@
+{
+    "cookiecutter": {
+        "codeowner_github_usernames": "jeffkala",
+        "full_name": "Jeff Kala",
+        "email": "jeff.kala@networktocode.com",
+        "github_org": "jeffkala",
+        "app_name": "receptor_shim",
+        "verbose_name": "Receptor Shim",
+        "app_slug": "receptor-shim",
+        "project_slug": "nautobot-app-receptor-shim",
+        "repo_url": "https://github.com/jeffkala/nautobot-app-receptor-shim",
+        "base_url": "receptor-shim",
+        "min_nautobot_version": "2.1.0",
+        "max_nautobot_version": "2.9999",
+        "camel_name": "ReceptorShim",
+        "project_short_description": "Receptor Shim",
+        "model_class_name": "None",
+        "open_source_license": "Apache-2.0",
+        "docs_base_url": "https://docs.nautobot.com",
+        "docs_app_url": "https://docs.nautobot.com/projects/receptor-shim/en/latest",
+        "_template": "https://github.com/nautobot/cookiecutter-nautobot-app",
+        "_output_dir": "/mnt/kalanas_share/personal_projects/cookiecutter-nautobot-app/outputs",
+        "_repo_dir": "/home/allprojeff66/.cookiecutters/cookiecutter-nautobot-app/nautobot-app",
+        "_checkout": null
+    }
+}
